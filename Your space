@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Space</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #3a1c71, #d76d77, #ffaf7b);
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 0.5em;
+    }
+
+    p {
+      font-size: 1.2em;
+      max-width: 600px;
+      text-align: center;
+    }
+
+    .button {
+      margin-top: 1.5em;
+      padding: 0.8em 1.5em;
+      font-size: 1em;
+      color: #fff;
+      background-color: #333;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .button:hover {
+      background-color: #555;
+    }
+  </style>
+</head>
+<body>
+  <h1>Your Space</h1>
+  <p>Bem-vindo ao seu espaço pessoal na web. Aqui você pode compartilhar ideias, criar conteúdos e muito mais.</p>
+  <button class="button">Começar</button>
+</body>
+</html>
